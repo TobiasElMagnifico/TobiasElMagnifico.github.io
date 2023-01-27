@@ -1,0 +1,256 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    transition: .3s ease all;
+}
+
+body.light {
+    background-color: #f1f1f1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*position:fixed;*/
+    width:100%;
+    padding: 5px 0px;;
+    background-color: #373535;
+}
+
+body.light header{
+    background: #f1f1f1;
+}
+
+body.light .imagenCV{
+    border:2px solid #000;
+}
+
+body.light h3{
+    color: #000;
+}
+
+body.light a h3:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+body.light .section-h3 {
+    border-bottom: 2px solid #000;
+}
+
+body.light p{
+    color: #000;
+}
+
+body.light li{
+    color: #000;
+}
+
+body.light .img-infopersonal{
+    border: #000 solid 2px;
+}
+
+body.light .footer {
+    background: #f1f1f1;
+}
+
+.switch{
+    background-color: rgb(255, 119, 0);
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;    
+    display: flex;
+    outline: none;
+}    
+
+.switch::after {
+    content:"";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #f1f1f1;
+    top: 0;     
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,.2);
+
+}
+
+.switch.active {
+    background:#000;
+    color: white;
+}        
+
+.switch.active::after {
+    right:0;
+    left:unset;
+}
+
+.switch span {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: block;
+        background: none;
+        color: #fff;
+    }
+
+.imagenCV {
+    border-radius: 50%;
+    border:2px solid #f1f1f1;
+    height:70px;
+}
+
+img {
+    max-height:200px;
+    max-width:200px;
+}
+ 
+.portada {
+    background: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)), url(https://wallpapercave.com/wp/wp3988340.jpg);
+    height: 450px;
+    width:100%;
+    background-size:cover;
+    background-position:center;
+    pointer-events:none;
+    display: flex;
+}
+
+h1 {
+    color: white;
+    font-size: 7vw;
+    font-weight: 800;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    max-width: 800px;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav-h3 {
+    color: #fff;
+    padding: 10px;
+    margin:0px 10px;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    background-position:bottom;
+    color:white;
+    padding: 70px 0px;
+    }
+
+section{
+    margin: 0px 0px 50px;
+}    
+
+.section-h3 {
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content:center;
+    padding: 25px 0px 10px 0px;
+    margin: 0px 20%;
+    
+    
+}
+
+li{
+    padding: 7px 0px;
+    margin:7px 0px;
+}
+
+a h3:hover{
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+a:link{
+    text-decoration:none;
+}
+
+.text {
+    padding:25px 20%;
+    list-style-type: none;
+}
+
+.art-infopersonal{
+    display: flex;
+    width:60%;
+    margin:auto;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.text-infopersonal{
+    padding:20px 0px;
+    width: 50%;
+    list-style-type: none;
+}
+
+.div-infopersonal{ 
+    max-width:50%;
+    padding:50px 20% 0px 20%;
+}
+
+.img-infopersonal{
+    width: 200%;
+    margin:auto;
+    height:200px;
+    border:#f1f1f1 solid 2px;
+}
+
+
+.footer {
+    background-color: #373535;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.contorno-icon-footer{
+    background-color:white;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+footer p {
+    font-size: small;
+}
+
+#caja-iconos{
+    display: flex;
+}
+
+/**
+Esto es un comentario
+*/ 
