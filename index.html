@@ -106,7 +106,31 @@
             </ul>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="myFooter">
+        <button type="button" id="boton_contactar" onclick="btnForm()">CONTACTAR</button>
+        <div id="div_form" style="display: none;">
+            <form action="" method="get">
+                <fieldset class="fieldset">
+                    <label class="label">Nombre</label>
+                    <input type="text" required="required" name="nombre" placeholder="Ingrese su nombre..." class="input">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <label class="label">Apellido</label>
+                    <input type="text" required="required" name="apellido" placeholder="Ingrese su apellido..." class="input">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <label class="label">E-mail</label>
+                    <input type="email" required="required" name="email" placeholder="Ingrese su e-mail..." class="input">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <label class="label">Mensaje</label>
+                    <input type="text" required="required" name="mensaje" placeholder="Ingrese un mensaje..." id="input_coment" class="input">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <input type="submit" value="Enviar" id="btn_submit">
+                </fieldset>
+            </form>
+        </div>
         <div id="caja-iconos">
             <a href="https://ar.linkedin.com/"> 
                 <div class="contorno-icon-footer">

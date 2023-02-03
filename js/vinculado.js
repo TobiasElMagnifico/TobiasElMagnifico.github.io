@@ -22,3 +22,14 @@ if (localStorage.getItem('light-mode') === 'true'){
     document.body.classList.remove('light');
     btnSwitch.classList.remove('active');
 }
+
+//---------------form--------------------------------//
+
+document.getElementById('boton_contactar').addEventListener('click', function () {
+    document.getElementById('div_form').style.display='block';
+})
+
+function btnForm() {
+    var element = document.getElementById("myFooter");
+    element.classList.toggle("footer_xl");
+}
