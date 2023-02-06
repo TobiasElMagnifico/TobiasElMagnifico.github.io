@@ -33,3 +33,12 @@ function btnForm() {
     var element = document.getElementById("myFooter");
     element.classList.toggle("footer_xl");
 }
+
+//----------------------------nav version mobile--------------------------------------------//
+
+const btnMenu = document.querySelector('.btn-menu')
+const nav = document.querySelector('.nav')
+
+btnMenu.addEventListener("click", () => {
+    nav.classList.toggle("nav_visible");
+})

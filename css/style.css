@@ -32,6 +32,10 @@ body {
     height:70px;
 }
 
+.btn-menu {
+    display: none;
+}
+
 .nav {
     display: flex;
     justify-content: center;
@@ -287,6 +291,18 @@ body.light .imagenCV{
     border:2px solid #000;
 }
 
+body.light .btn-menu {
+    color: #000;
+}
+
+body.light .nav_visible {
+    background-color: #f1f1f1;
+}
+
+body.light .nav {
+    background-color: #f1f1f1;
+}
+
 body.light h3{
     color: #000;
 }
@@ -332,18 +348,48 @@ body.light #div_form {
 
 /**-----------------------------------------Mobile responsive design (start)-------------------------------------------*/
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
 
     .header {
         display: flex;
         justify-content: space-between;
+        padding: 2%;
     }
 
-    header div {
+    .imagenCV {
         display: none;
     }
 
-    nav h3 {
+    .btn-menu {
+        display: block;
+        color: #f1f1f1;
+        background: none;
+        border: none;
+        font-size: large;
+        z-index: 6;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        background-color: #373535;
+        top: -130px;
+        width: 100%;
+        right: 0%;
+        transition: top 0.3s;
+    }
+
+    .nav_visible {
+        top: 45px;
+        background-color: #373535;
+    }
+
+    .switch {
+        z-index: 6;
+    }
+
+    header div {
         display: none;
     }
     
