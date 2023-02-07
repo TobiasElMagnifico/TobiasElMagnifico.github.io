@@ -377,7 +377,7 @@ body.light #div_form {
         top: -130px;
         width: 100%;
         right: 0%;
-        transition: top 0.3s;
+        transition: top 0.2s;
     }
 
     .nav_visible {
