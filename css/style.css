@@ -197,10 +197,9 @@ li{
 }
 
 #boton_contactar {
-    background-color: rgb(101, 0, 129);
-    border-radius: 5%;
+    background-color: #000;
     padding: 10px 20px;
-    border-style: solid 2px;
+    border: solid 1px;
     color: #fff;
     cursor: pointer;
     font-weight: bold;
@@ -215,6 +214,10 @@ li{
     justify-content: center;
     align-items: center;
     margin: 5px;
+}
+
+div i {
+    color: #000;
 }
 
 footer p {
@@ -261,6 +264,7 @@ footer p {
     background-color: #000;
     color: #fff;
     border: solid 1px rgb(133, 133, 133);
+    width: 100%;
 }
 
 #input_coment {
@@ -270,11 +274,13 @@ footer p {
 #btn_submit {
     text-transform: uppercase;
     cursor: pointer;
-    background-color:rgb(101, 0, 129);
+    background-color:#000;
     color: white;
     font-weight: bold;
     height: 2rem;
     margin-top: 1rem;
+    width: 100%;
+    border: solid 1px;
 }
 
 /** --------------------------------------------Modo claro de la página web(start)-------------------------------------------------- */
@@ -328,7 +334,7 @@ body.light .img-infopersonal{
 }
 
 body.light .footer {
-    background: #f1f1f1;
+    background: #e2e2e2;
 }
 
 body.light .label {
