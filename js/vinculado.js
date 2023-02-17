@@ -42,3 +42,11 @@ const nav = document.querySelector('.nav')
 btnMenu.addEventListener("click", () => {
     nav.classList.toggle("nav_visible");
 })
+
+//----------------------------registro de service worker--------------------------------------------//
+
+window.addEventListener("load", () => {
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("service-worker.js")
+    }
+})

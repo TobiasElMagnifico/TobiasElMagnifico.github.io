@@ -1,0 +1,20 @@
+{
+    "name": "Cosme Fulanito CV",
+    "short_name": "Cosme CV",
+    "start_URL":".",
+    "background_color": "#000",
+    "theme_color": "#f1f1f1",
+    "display": "standalone",
+    "icons": [
+        {
+        "src":"https://cdn3.iconfinder.com/data/icons/wpzoom-developer-icon-set/500/84-512.png",
+        "type":"image/x-icon",
+        "sizes":"512x512"
+        },
+        {
+            "src":"https://cdn3.iconfinder.com/data/icons/wpzoom-developer-icon-set/500/84-512.png",
+            "type":"image/x-icon",
+            "sizes":"192x192"
+        }
+    ]
+}
