@@ -1,7 +1,7 @@
 {
     "name": "Cosme Fulanito CV",
     "short_name": "Cosme CV",
-    "start_URL":".",
+    "start_URL":"https://tobiaselmagnifico.github.io/",
     "background_color": "#000",
     "theme_color": "#f1f1f1",
     "display": "standalone",
